@@ -1,4 +1,4 @@
-package com.looty.eventplanningapi.users;
+package com.looty.eventplanningapi.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -12,5 +12,5 @@ import java.util.UUID;
  * @since 7/20/23
  */
 @Repository
-public interface UsersRepository extends JpaRepository<UUID, User> {
+public interface UserRepository extends JpaRepository<User, UUID> {
 }

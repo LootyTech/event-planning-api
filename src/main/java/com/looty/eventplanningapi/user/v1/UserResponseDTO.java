@@ -1,4 +1,4 @@
-package com.looty.eventplanningapi.users.v1;
+package com.looty.eventplanningapi.user.v1;
 
 /**
  * The user response DTO

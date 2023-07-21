@@ -1,4 +1,4 @@
-package com.looty.eventplanningapi.users;
+package com.looty.eventplanningapi.user;
 
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 7/20/23
  */
 @RestController
-public class UsersController {
+public class UserController {
 }
